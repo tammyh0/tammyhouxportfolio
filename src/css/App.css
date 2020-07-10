@@ -110,7 +110,7 @@ html {
   text-decoration: none;
   font-family: nunito-sans, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   color: #8B8B8B;
 }
 
@@ -118,6 +118,9 @@ html {
   color:#000000;
   opacity: 0.8;
   font-weight: 600;
+
+  transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
 }
 
 /* footer */

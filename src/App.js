@@ -19,19 +19,19 @@ function App() {
         </div>
 
         <div className="Nav-bar">
-            <NavLink exact className="Work-tab" to="/" activeStyle={{
+            <NavLink exact className="Tab Work-tab" to="/" activeStyle={{
               color: "#000000",
               opacity: "0.8",
               fontWeight: "600"}}>Work
             </NavLink>
 
-            <NavLink className="About-tab" to="/about" activeStyle={{
+            <NavLink className="Tab About-tab" to="/about" activeStyle={{
               color: "#000000",
               opacity: "0.8",
               fontWeight: "600"}}>About
             </NavLink>
 
-            <NavLink className="Resume-tab" to="/resume" activeStyle={{
+            <NavLink className="Tab Resume-tab" to="/resume" activeStyle={{
               color: "#000000",
               opacity: "0.8",
               fontWeight: "600"}}>Resume
