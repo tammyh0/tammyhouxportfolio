@@ -6,6 +6,7 @@ import Work from './js/Work'
 import About from './js/About'
 import Resume from './js/Resume'
 import { CSSTransition, TransitionGroup} from 'react-transition-group'
+import {TinyButton as ScrollUpButton} from "react-scroll-up-button"
 
 
 function App() {
@@ -52,13 +53,27 @@ function App() {
 
 
               {/*<Route path="/CocoBot" component={CocoBot} />
-              <Route path="/rumi" component={Rumi} />
-              <Route path="/expedia" component={Expedia} />
-              <Route path="/plantable" component={Plantable} />*/}
+              <Route path="/RUMI" component={RUMI} />
+              <Route path="/Expedia" component={Expedia} />
+              <Route path="/Plantable" component={Plantable} />*/}
             </Switch>
           </CSSTransition>
         </TransitionGroup>
       )} />
+
+      <footer className="Footer">
+        <ScrollUpButton style={{backgroundColor: "none", fill: "#999999"}}/>
+
+        <div className="Footer-contact">
+          <span className="Footer-contact-phrase">Let's Connect!</span>
+          <a className="Footer-contact-link" href="mailto:tammyhho98@gmail.com?Subject=Hi%20Tammy!" target="_top">tammyhho98@gmail.com</a>
+        </div>
+
+        <p className="Copyright">
+          Made with 💟 in Seattle // Updated July 2020
+        </p>
+
+      </footer>
 
     </div>
   

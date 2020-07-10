@@ -34,6 +34,56 @@ function Work(){
 
             </div>
 
+            <div className="Project-preview RUMI-preview">
+                <div className="Preview-text-container">
+                    <div className="Tags">
+                        <span className="Tag RUMI-tag">Mobile App Design</span>
+                        <span className="Tag RUMI-tag">UX / UI</span>
+                    </div>
+                    <h1>RUMI 🏠</h1>
+                    <p className="Preview-description">Designing a communication app for living with roommates.</p>
+                    <Link className="View-project-link" to="/RUMI">View project</Link>
+                </div>
+
+                <div className="Preview-image-container">
+                    <img className="Preview-image" src="/Work media/RUMI_preview.png" alt="RUMI" />
+                </div>
+
+            </div>
+
+            <div className="Project-preview Expedia-preview">
+                <div className="Preview-text-container">
+                    <div className="Tags">
+                        <span className="Tag Expedia-tag">Usability Testing</span>
+                        <span className="Tag Expedia-tag">Web</span>
+                    </div>
+                    <h1>Expedia ✈️</h1>
+                    <p className="Preview-description">Evaluating Expedia.com's vacation packages feature.</p>
+                    <Link className="View-project-link" to="/Expedia">View project</Link>
+                </div>
+
+                <div className="Preview-image-container">
+                    <img className="Preview-image" src="/Work media/expedia_preview.png" alt="Expedia" />
+                </div>
+
+            </div>
+
+            <div className="Project-preview Plantable-preview">
+                <div className="Preview-text-container">
+                    <div className="Tags">
+                        <span className="Tag Plantable-tag">Physical Prototyping</span>
+                    </div>
+                    <h1>Plantable 🌱</h1>
+                    <p className="Preview-description">Building a beginner's kit and guide for novice plant growers.</p>
+                    <Link className="View-project-link" to="/Plantable">View project</Link>
+                </div>
+
+                <div className="Preview-image-container">
+                    <img className="Preview-image" src="/Work media/plantable_preview.png" alt="Plantable" />
+                </div>
+
+            </div>
+
         </div>
     </div>
 }

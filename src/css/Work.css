@@ -19,6 +19,8 @@
         display: flex;
         flex-direction: column-reverse;
         /*justify-content: space-between;*/
+
+        margin-bottom: 4rem;
     }
 
     .Tags {
@@ -78,6 +80,8 @@
         display: flex;
         flex-direction: column-reverse;
         /*justify-content: space-between;*/
+
+        margin-bottom: 5rem;
     }
 
     .Tags {
@@ -137,6 +141,8 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+        margin-bottom: 6rem;
     }
 
     .Tags {
@@ -242,6 +248,21 @@
 .CocoBot-tag {
     background-color: #F8F0FB;
     color: #BB6BD9;
+}
+
+.RUMI-tag {
+    background-color: #FFF7F3;
+    color: #EB5757;
+}
+
+.Expedia-tag {
+    background-color: #FFFCE8;
+    color: #F2C94C;
+}
+
+.Plantable-tag {
+    background-color: #E5F6F6;
+    color: #00A8A8;
 }
 
 .Preview-description {
