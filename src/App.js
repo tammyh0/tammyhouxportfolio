@@ -1,6 +1,7 @@
 import React from 'react'
 import './css/App.css'
 import './css/Work.css'
+import './css/About.css'
 import { BrowserRouter, Route, Link, NavLink, Switch } from 'react-router-dom'
 import Work from './js/Work'
 import About from './js/About'

@@ -3,7 +3,7 @@
     .Intro-text {
         font-size: 2.4rem;
         line-height: 3rem;
-        margin-top: 2.6rem;
+        margin-top: 4rem;
     }
 
     .Intro-contact-links a {
@@ -12,7 +12,7 @@
 
     /* projects */
     .Project-previews {
-        margin-top: 4rem;
+        margin-top: 8rem;
     }
 
     .Project-preview {
@@ -20,7 +20,7 @@
         flex-direction: column-reverse;
         /*justify-content: space-between;*/
 
-        margin-bottom: 4rem;
+        margin-bottom: 5rem;
     }
 
     .Tags {
@@ -64,7 +64,7 @@
     .Intro-text {
         font-size: 2.8rem;
         line-height: 3.8rem;
-        margin-top: 3.2rem;
+        margin-top: 6rem;
     }
 
     .Intro-contact-links a {
@@ -73,7 +73,7 @@
 
     /* projects */
     .Project-previews {
-        margin-top: 6rem;
+        margin-top: 10rem;
     }
 
     .Project-preview {
@@ -270,6 +270,8 @@
     font-style: normal;
     font-weight: 600;
     color: #8B8B8B;
+
+    line-height: 2.2rem;
 }
 
 .View-project-link {
