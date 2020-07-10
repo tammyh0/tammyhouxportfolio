@@ -1,0 +1,274 @@
+@media screen and (max-width: 600px) { /* mobile */
+    /* intro */
+    .Intro-text {
+        font-size: 2.4rem;
+        line-height: 3rem;
+        margin-top: 2.6rem;
+    }
+
+    .Intro-contact-links a {
+        margin-right: 3rem;
+    }
+
+    /* projects */
+    .Project-previews {
+        margin-top: 4rem;
+    }
+
+    .Project-preview {
+        display: flex;
+        flex-direction: column-reverse;
+        /*justify-content: space-between;*/
+    }
+
+    .Tags {
+        display: none;
+    }
+
+    .Preview-text-container {
+        text-align: left;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: nunito-sans, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+    
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .Preview-description {
+        font-size: 1.4rem;
+        margin-top: 0.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .View-project-link {
+        font-size: 1.2rem;
+    }
+
+    .Preview-image-container {
+        width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 600px) { /* tablet */
+    /* intro */
+    .Intro-text {
+        font-size: 2.8rem;
+        line-height: 3.8rem;
+        margin-top: 3.2rem;
+    }
+
+    .Intro-contact-links a {
+        margin-right: 4rem;
+    }
+
+    /* projects */
+    .Project-previews {
+        margin-top: 6rem;
+    }
+
+    .Project-preview {
+        display: flex;
+        flex-direction: column-reverse;
+        /*justify-content: space-between;*/
+    }
+
+    .Tags {
+        display: flex;
+    }
+
+    .Preview-text-container {
+        text-align: left;
+        width: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+        font-family: nunito-sans, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+    
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .Preview-description {
+        font-size: 1.4rem;
+        margin-top: 0.6rem;
+        margin-bottom: 1.6rem;
+    }
+
+    .View-project-link {
+        font-size: 1.4rem;
+    }
+
+    .Preview-image-container {
+        width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) { /* desktop */
+    /* intro */
+    .Intro-text {
+        font-size: 3.6rem;
+        line-height: 4.8rem;
+        margin-top: 7rem;
+    }
+
+    .Intro-contact-links a {
+        margin-right: 4rem;
+    }
+
+    /* projects */
+    .Project-previews {
+        margin-top: 9rem;
+    }
+
+    .Project-preview {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .Tags {
+        display: flex;
+    }
+
+    .Preview-text-container {
+        text-align: left;
+        width: 30%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    h1 {
+        font-size: 2.85rem;
+        font-family: nunito-sans, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+    
+        margin-top: 1rem;
+        margin-bottom: 0;
+    }
+
+    .Preview-description {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .View-project-link {
+        font-size: 1.4rem;
+    }
+
+    .Preview-image-container {
+        width: 60%;
+    }
+  }
+
+/* introduction */
+
+.Intro-text {
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    color: #333333;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Intro-highlight {
+    color: #00A8A8;
+    opacity: 0.6;
+}
+
+.Intro a {
+    text-decoration: none;
+    color: inherit;
+
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+}
+
+.Intro-contact-links {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+    font-size: 1.4rem;
+
+    color: #FF8B8B;
+    opacity: 0.9;
+}
+
+.HCDE-link:hover, .CocoBot-link:hover {
+    color: #00A8A8;
+    opacity: 0.7;
+}
+
+.Email-link:hover, .LinkedIn-link:hover {
+    color: #FF8B8B;
+    opacity: 0.7;
+}
+
+/* projects */
+
+.Tag {
+    margin: 10px 10px 0 0;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 20px;
+
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.CocoBot-tag {
+    background-color: #F8F0FB;
+    color: #BB6BD9;
+}
+
+.Preview-description {
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #8B8B8B;
+}
+
+.View-project-link {
+    text-decoration: none;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.View-project-link:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.Preview-image {
+    width: 100%; /* you can use % */
+    height: auto;
+}
