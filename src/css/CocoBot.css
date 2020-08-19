@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* other projects links */
+
+.Other-projects-container {
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+
+    text-align: left;
+    margin-bottom: 8rem;
+}
+
+.Other-projects-title {
+    font-size: 1.5rem;
+    color: #8B8B8B;
+}
+
+.Other-projects-list {
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    font-size: 5rem;
+}
+
+.Other-project-name {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+.Other-project-name:hover {
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+}

@@ -1,0 +1,63 @@
+@media screen and (max-width: 600px) { /* mobile */
+    .Resume-image {
+        width: 100%;
+        margin-top: 2.4rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .Download-resume-link {
+        font-size: 1.2rem;
+        margin-bottom: 2.4rem;
+    }
+}
+
+@media only screen and (min-width: 600px) { /* tablet */
+    .Resume-image {
+        width: 100%;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .Download-resume-link {
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media only screen and (min-width: 768px) { /* desktop */
+    .Resume-image {
+        width: 70%;
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+    }
+    
+    .Download-resume-link {
+        font-size: 1.6rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.Resume-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Download-resume-link {
+    text-align: center;
+
+    text-decoration: none;
+
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+
+    font-family: nunito-sans, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.Download-resume-link:hover {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.8);
+    color: rgba(0, 0, 0, 0.8);
+}

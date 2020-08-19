@@ -5,14 +5,14 @@ import { LinkedinOutlined} from '@ant-design/icons';
 function Work(){
     return <div className="Work-page">
         <div className="Intro">
-            <p className="Intro-text">I'm Tammy, a UX Designer who is curious about the world and creating better products for people. 
+            <p className="Intro-text">I'm Tammy 🏄🏻‍♀️ — a UX Designer who is curious about the world and creating better products for people. 
                 Recent <span className="Intro-highlight"><a className="HCDE-link" href="https://www.hcde.washington.edu/" target="_blank">Human-Centered Design &#38; Engineering</a></span> grad @ UW. 
                 Previously designed for <span className="Intro-highlight"><a className="CocoBot-link" href="https://www.cocobot.care/" target="_blank">CocoBot</a></span>.
             </p>
-            <p className="Intro-contact-links">
+            {/*<p className="Intro-contact-links">
                 <a className="Email-link" href="mailto:tammyhho98@gmail.com?Subject=Hi%20Tammy!" target="_top">💌 Let's chat!</a>
                 <a className="LinkedIn-link" href="https://www.linkedin.com/in/ho-tammy/" target="_blank"><LinkedinOutlined />  LinkedIn</a> 
-            </p>
+            </p>*/}
         </div>
 
         <div className="Project-previews">
